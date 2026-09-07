@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ezanshu SkinFix — Custom EvoWorld Textures & Skin Changer</title>
+<meta name="description" content="Ezanshu SkinFix is a free custom EvoWorld tool for applying custom textures and skin mappings. Explore screenshots, see the extension UI, verify the release scan, and follow the installation guide.">
+<meta name="keywords" content="Ezanshu SkinFix, EvoWorld, EvoWorld.io, custom textures, skin changer, texture pack, Chrome extension, EvoWorld custom tools">
+<meta name="author" content="Anshu / Ezanshu">
+<meta name="theme-color" content="#0d0917">
+<meta property="og:title" content="Ezanshu SkinFix — Custom EvoWorld Tools">
+<meta property="og:description" content="Free custom textures and skin mapping tools for EvoWorld.">
+<meta property="og:type" content="website">
+<style>
+:root{--bg:#090711;--panel:#121020;--panel2:#18142a;--line:#302843;--text:#f7f3ff;--muted:#aaa2bf;--pink:#f23fb5;--violet:#8a55ff;--green:#43e0a5;--shadow:0 24px 70px rgba(0,0,0,.35)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 15% 0%,#271334 0,#090711 38%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif;line-height:1.6}
+a{color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 22px}.nav{position:sticky;top:0;z-index:20;background:rgba(9,7,17,.78);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.07)}.navin{height:70px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:11px;font-weight:900;font-size:18px}.branddot{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--pink),var(--violet));display:grid;place-items:center;box-shadow:0 10px 30px #8a55ff33}.links{display:flex;gap:22px;color:var(--muted);font-size:14px}.links a{text-decoration:none}.links a:hover{color:white}.hero{padding:86px 0 64px;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:620px;height:620px;border-radius:50%;background:#8a55ff22;filter:blur(80px);right:-260px;top:-240px}.hero-grid{display:grid;grid-template-columns:1.03fr .97fr;gap:42px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid #3a3151;background:#151126;border-radius:999px;padding:7px 12px;color:#d5cbed;font-size:13px}.dot{width:8px;height:8px;background:var(--green);border-radius:50%;box-shadow:0 0 16px var(--green)}h1{font-size:clamp(44px,7vw,76px);line-height:1.02;letter-spacing:-.055em;margin:20px 0 18px}h1 span{background:linear-gradient(100deg,#ff5abb,#9c68ff);-webkit-background-clip:text;color:transparent}.lead{font-size:19px;color:#c2bad4;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 19px;border-radius:13px;text-decoration:none;font-weight:850;border:1px solid #403654;background:#171326}.btn.primary{border:0;background:linear-gradient(100deg,var(--pink),var(--violet));box-shadow:0 12px 34px #9c4cff2b}.btn:hover{transform:translateY(-1px);filter:brightness(1.08)}.trustline{display:flex;gap:14px;flex-wrap:wrap;color:#9e97b1;font-size:13px}.hero-shot{border:1px solid #3a3150;border-radius:22px;background:#0f0c19;padding:9px;box-shadow:var(--shadow);transform:rotate(1deg)}.hero-shot img{width:100%;display:block;border-radius:15px;max-height:520px;object-fit:cover;object-position:center}.section{padding:74px 0}.section h2{font-size:38px;letter-spacing:-.035em;margin:0 0 10px}.section-intro{color:var(--muted);max-width:720px;margin-bottom:28px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(180deg,#161226,#100d1b);border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 12px 40px #00000018}.icon{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,#f23fb533,#8a55ff44);display:grid;place-items:center;font-size:21px;margin-bottom:13px}.card h3{margin:0 0 6px}.muted{color:var(--muted)}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.shot{background:#100d1b;border:1px solid var(--line);border-radius:16px;padding:7px;overflow:hidden}.shot img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:11px;display:block}.shot figcaption{padding:10px 8px 5px;color:#b7afc8;font-size:13px}.ui-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.ui-grid .shot img{aspect-ratio:447/600;object-fit:cover;object-position:top}.security{background:linear-gradient(135deg,#101a18,#120f1e);border:1px solid #28463d;border-radius:22px;padding:28px}.security-top{display:flex;gap:22px;align-items:center}.score{width:105px;height:105px;border-radius:50%;border:8px solid #4ad5aa;display:grid;place-items:center;color:#61e3b6;font-size:30px;font-weight:900;flex:none}.score small{display:block;font-size:11px;color:#8f9b95;font-weight:600;text-align:center;margin-top:-32px}.security h3{margin:0 0 6px;font-size:24px}.hash{margin-top:18px;background:#0a0d0d;border:1px solid #263530;border-radius:12px;padding:13px;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12px;word-break:break-all;color:#bdeee0}.note{font-size:12px;color:#989b9a;margin-top:10px}.tutorial{display:grid;grid-template-columns:1fr 1fr;gap:16px}.step{display:flex;gap:14px}.num{width:35px;height:35px;border-radius:10px;background:linear-gradient(135deg,var(--pink),var(--violet));display:grid;place-items:center;font-weight:900;flex:none}.code{background:#08070d;border:1px solid #29243a;border-radius:10px;padding:3px 7px;font-family:ui-monospace,monospace;color:#ded7ee}.faq{display:grid;grid-template-columns:1fr 1fr;gap:12px}.faq details{background:#121020;border:1px solid var(--line);border-radius:13px;padding:15px 17px}.faq summary{font-weight:800;cursor:pointer}.footer{border-top:1px solid #252033;padding:32px 0 46px;color:#928ba4}.footerin{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.tiny{font-size:12px}.badge{display:inline-flex;padding:5px 9px;border-radius:999px;background:#153d32;color:#64e0b4;font-size:12px;font-weight:800}.top{position:fixed;right:18px;bottom:18px;background:#171326;border:1px solid #3b3150;border-radius:50%;width:42px;height:42px;display:grid;place-items:center;text-decoration:none}
+@media(max-width:850px){.hero-grid,.tutorial{grid-template-columns:1fr}.cards,.gallery,.ui-grid,.faq{grid-template-columns:1fr 1fr}.links{display:none}.hero{padding-top:55px}.hero-shot{transform:none}}
+@media(max-width:560px){.cards,.gallery,.ui-grid,.faq{grid-template-columns:1fr}.wrap{padding:0 15px}h1{font-size:48px}.section{padding:55px 0}}
+
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.about-title{display:flex;gap:13px;align-items:center}.about-title .icon{margin:0}.clean-list{margin:13px 0 0;padding-left:20px;color:#c0b8ce}.clean-list li{margin:8px 0}.permissions{margin-top:16px}.vote-box{background:linear-gradient(145deg,#161127,#100d19);border:1px solid #403151;border-radius:24px;padding:28px;box-shadow:var(--shadow);position:relative;overflow:hidden}.vote-box:before{content:"";position:absolute;inset:auto -120px -180px auto;width:360px;height:360px;border-radius:50%;background:#8a55ff1c;filter:blur(30px)}.vote-head{display:flex;justify-content:space-between;gap:20px;position:relative}.vote-pin{border:1px solid #5c4677;background:#20152e;color:#e5c8ff;padding:7px 10px;border-radius:999px;height:max-content;font-size:11px;font-weight:900;letter-spacing:.12em}.vote-options{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px;position:relative}.vote-option{display:grid;grid-template-columns:48px 1fr auto;align-items:center;gap:12px;text-align:left;background:#100d1b;border:1px solid #3a304b;border-radius:16px;padding:14px;color:white;cursor:pointer}.vote-option:hover,.vote-option.selected{border-color:#b05dff;background:linear-gradient(100deg,#25132a,#171027)}.vote-option>span{font-size:28px}.vote-option strong{font-size:16px}.vote-option em{font-style:normal;color:#9e95b0;font-size:12px}.vote-status{margin-top:13px;color:#a9a0b9;font-size:13px;position:relative}.comment-card{margin-top:20px;padding:17px;border-radius:15px;background:#0c0a13;border:1px solid #2c2638;display:flex;justify-content:space-between;align-items:center;gap:16px;position:relative}.comment-card p{margin:3px 0 0;font-size:13px}.comment-card .btn{flex:none}
+</style>
+</head>
+<body id="top">
+<nav class="nav"><div class="wrap navin">
+  <a class="brand" href="#top"><span class="branddot">E</span> ezanshu <span class="muted">SkinFix</span></a>
+  <div class="links"><a href="#features">Features</a><a href="#about">About</a><a href="#showcase">Showcase</a><a href="#ui">Extension UI</a><a href="#security">Security</a><a href="#vote">Vote</a><a href="#install">Install</a></div>
+</div></nav>
+
+<header class="hero"><div class="wrap hero-grid">
+  <div>
+    <div class="eyebrow"><span class="dot"></span> Free EvoWorld custom tool</div>
+    <h1>Make EvoWorld<br><span>feel like yours.</span></h1>
+    <p class="lead">Ezanshu SkinFix is a free Chrome extension for custom EvoWorld textures and skin mappings — built to make visual customization simple, transparent, and easy to verify.</p>
+    <div class="actions">
+      <a class="btn primary" href="download/ezanshu_skinfix_V1_FINAL.zip" download>⬇ Download SkinFix V1</a>
+      <a class="btn" href="#install">🛠 Installation guide</a>
+    </div>
+    <div class="trustline"><span>✓ Free to use</span><span>✓ Local texture tools</span><span>✓ Public scan evidence</span></div>
+  </div>
+  <div class="hero-shot"><img src="assets/game-loading.png" alt="EvoWorld custom loading screen"></div>
+</div></header>
+
+<main>
+<section class="section" id="features"><div class="wrap">
+  <h2>What SkinFix does</h2><p class="section-intro">A focused toolkit for changing the visual assets you want without turning the extension into a complicated dashboard.</p>
+  <div class="cards">
+    <article class="card"><div class="icon">🎨</div><h3>Custom Textures</h3><p class="muted">Browse the included texture pack, search assets, and keep the visual style consistent across your game.</p></article>
+    <article class="card"><div class="icon">🧩</div><h3>Skin Changer</h3><p class="muted">Create source → target mappings for characters, pets and supported effects, then apply or rebuild the redirect rules.</p></article>
+    <article class="card"><div class="icon">⚡</div><h3>Automatic Rule Engine</h3><p class="muted">The extension uses Chrome's dynamic redirect rules and rebuilds them when texture or skin settings change.</p></article>
+  </div>
+</div></section>
+
+
+<section class="section" id="about"><div class="wrap">
+  <h2>About ezanshu</h2>
+  <p class="section-intro">A small, focused EvoWorld customization project by Anshu — made around local texture replacements and flexible skin redirection.</p>
+  <div class="about-grid">
+    <div class="card">
+      <div class="about-title"><span class="icon">👤</span><div><h3 style="margin:0">Made by Anshu</h3><span class="badge">V1 · Manifest V3</span></div></div>
+      <p class="muted">The extension's popup includes three areas: <strong>Textures</strong>, <strong>Skin Changer</strong>, and <strong>About</strong>. The supplied release includes the Dark Nostalgia texture pack, a loading-screen replacement, and user-configurable skin mappings.</p>
+    </div>
+    <div class="card">
+      <h3>What happens under the hood</h3>
+      <ul class="clean-list">
+        <li>Uses Chrome's <strong>declarativeNetRequest</strong> for local redirect rules.</li>
+        <li>Stores extension settings with Chrome <strong>storage</strong>.</li>
+        <li>Targets EvoWorld pages under <strong>evoworld.io</strong> and its subdomains.</li>
+        <li>Texture redirects use files bundled inside the extension.</li>
+        <li>Skin redirects preserve the EvoWorld sprite host instead of hard-coding one CDN hostname.</li>
+        <li>Sprite query strings are tolerated, and multiple resource types are supported.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="card permissions">
+    <h3>Permissions & access</h3>
+    <p class="muted">The V1 manifest declares <strong>declarativeNetRequest</strong>, <strong>storage</strong>, and <strong>webRequest</strong>, with host access limited to <strong>evoworld.io</strong> and its subdomains. These permissions are used for the texture/skin redirect functionality and the extension's rule status/skin observation features.</p>
+  </div>
+</div></section>
+
+<section class="section" id="showcase"><div class="wrap">
+  <h2>See it in EvoWorld</h2><p class="section-intro">These are real screenshots from the SkinFix setup, showing custom environments and visual assets in-game.</p>
+  <div class="gallery">
+    <figure class="shot"><img src="assets/game-capy-taxi.png" alt="EvoWorld Capy Taxi texture"><figcaption>Custom character/environment texture</figcaption></figure>
+    <figure class="shot"><img src="assets/game-stone-statue.png" alt="EvoWorld stone statue texture"><figcaption>Custom world asset</figcaption></figure>
+    <figure class="shot"><img src="assets/game-blue-tree.png" alt="EvoWorld blue tree texture"><figcaption>Custom tree and environment</figcaption></figure>
+    <figure class="shot"><img src="assets/game-golden-temple.png" alt="EvoWorld golden temple texture"><figcaption>Custom structure texture</figcaption></figure>
+    <figure class="shot"><img src="assets/game-space.png" alt="EvoWorld space texture"><figcaption>Custom background texture</figcaption></figure>
+    <figure class="shot"><img src="assets/game-loading.png" alt="EvoWorld loading screen"><figcaption>Custom loading screen</figcaption></figure>
+  </div>
+</div></section>
+
+<section class="section" id="ui"><div class="wrap">
+  <h2>Inside the extension</h2><p class="section-intro">A quick look at the actual SkinFix interface: textures, skin changer, and the About panel.</p>
+  <div class="ui-grid">
+    <figure class="shot"><img src="assets/ui-textures.png" alt="SkinFix Textures panel"><figcaption>Textures — browse and search assets</figcaption></figure>
+    <figure class="shot"><img src="assets/ui-skin-changer.png" alt="SkinFix Skin Changer panel"><figcaption>Skin Changer — source/target mapping</figcaption></figure>
+    <figure class="shot"><img src="assets/ui-about.png" alt="SkinFix About panel"><figcaption>About — creator and rule status</figcaption></figure>
+  </div>
+</div></section>
+
+<section class="section" id="security"><div class="wrap">
+  <h2>Security & transparency</h2><p class="section-intro">Trust matters. The exact V1 ZIP was checked with VirusTotal, and the result is shown below so visitors can inspect the evidence themselves.</p>
+  <div class="security">
+    <div class="security-top">
+      <div class="score">0<small>/64</small></div>
+      <div><span class="badge">VirusTotal</span><h3>No security vendors flagged this file as malicious</h3><p class="muted">At the time of the submitted analysis, 0 of 64 security vendors flagged the V1 ZIP as malicious.</p></div>
+    </div>
+    <div class="hash"><strong>SHA-256:</strong> 1d459643bac6f8f003ff27c0348fd453dabe61ba33f7b1c1862d17f0027d3283</div>
+    <div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.virustotal.com/gui/file/1d459643bac6f8f003ff27c0348fd453dabe61ba33f7b1c1862d17f0027d3283/detection">View VirusTotal report ↗</a></div>
+    <p class="note">Note: a scanner result is evidence from a point-in-time analysis, not a permanent guarantee that any future version will be safe. Always verify the exact file/version you download.</p>
+    <div class="gallery" style="margin-top:18px">
+      <figure class="shot"><img src="assets/vt-overview.png" alt="VirusTotal overview showing 0 of 64 detections"><figcaption>VirusTotal overview</figcaption></figure>
+      <figure class="shot"><img src="assets/vt-details.png" alt="VirusTotal file details and SHA-256"><figcaption>File details & SHA-256</figcaption></figure>
+      <figure class="shot"><img src="assets/vt-vendors-1.png" alt="VirusTotal vendor results"><figcaption>Vendor analysis</figcaption></figure>
+    </div>
+  </div>
+</div></section>
+
+<section class="section" id="install"><div class="wrap">
+  <h2>Install in a few minutes</h2><p class="section-intro">Because this release is distributed outside the Chrome Web Store, Chrome requires the normal “Load unpacked” developer installation flow.</p>
+  <div class="tutorial">
+    <div class="card step"><div class="num">1</div><div><h3>Download</h3><p class="muted">Click <strong>Download SkinFix V1</strong> and save the ZIP file.</p></div></div>
+    <div class="card step"><div class="num">2</div><div><h3>Extract</h3><p class="muted">Right-click the ZIP → <strong>Extract All</strong>. Keep the extracted extension folder somewhere you won't accidentally delete.</p></div></div>
+    <div class="card step"><div class="num">3</div><div><h3>Open Extensions</h3><p class="muted">In Chrome, open <span class="code">chrome://extensions</span>.</p></div></div>
+    <div class="card step"><div class="num">4</div><div><h3>Developer mode</h3><p class="muted">Turn on <strong>Developer mode</strong> in the top-right corner.</p></div></div>
+    <div class="card step"><div class="num">5</div><div><h3>Load unpacked</h3><p class="muted">Click <strong>Load unpacked</strong> and select the extracted extension folder containing <span class="code">manifest.json</span>.</p></div></div>
+    <div class="card step"><div class="num">6</div><div><h3>Open & use</h3><p class="muted">Open the SkinFix extension, choose Textures or Skin Changer, then use the controls shown in the screenshots above.</p></div></div>
+  </div>
+</div></section>
+
+
+<section class="section" id="vote"><div class="wrap">
+  <div class="vote-box">
+    <div class="vote-head">
+      <div>
+        <span class="eyebrow">📌 Community vote</span>
+        <h2 style="margin-top:14px">What should the next theme be?</h2>
+        <p class="section-intro" style="margin-bottom:0">Help decide what gets added next. Pick one option below — your vote is saved on this device.</p>
+      </div>
+      <div class="vote-pin">PINNED</div>
+    </div>
+    <div class="vote-options">
+      <button class="vote-option" data-choice="India Theme"><span>🇮🇳</span><strong>India Theme</strong><em id="count-india">0 votes</em></button>
+      <button class="vote-option" data-choice="Other"><span>🌍</span><strong>Other</strong><em id="count-other">0 votes</em></button>
+    </div>
+    <div id="vote-status" class="vote-status">Choose an option to cast your vote.</div>
+    <div class="comment-card">
+      <div><strong>Have a theme idea?</strong><p class="muted">Tell Anshu what you want next. Your message opens your email app so you stay in control of what you send.</p></div>
+      <a class="btn" href="mailto:?subject=Ezanshu%20SkinFix%20%E2%80%94%20Theme%20Suggestion&body=My%20next%20theme%20suggestion%3A%20">💬 Send a suggestion</a>
+    </div>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <h2>FAQ</h2>
+  <div class="faq">
+    <details><summary>Is SkinFix free?</summary><p class="muted">Yes. The V1 release is provided free of charge.</p></details>
+    <details><summary>Why do I have to use Load unpacked?</summary><p class="muted">This release is distributed as a ZIP instead of through the Chrome Web Store, so Chrome's developer installation flow is required.</p></details>
+    <details><summary>Does the VirusTotal result guarantee safety?</summary><p class="muted">No scan can guarantee future safety. The displayed result documents the exact V1 ZIP that was analyzed at that time.</p></details>
+    <details><summary>Will I need to repeat setup after every browser restart?</summary><p class="muted">Normally an unpacked extension remains installed while its folder is available. If Chrome disables it or the extension files change, follow Chrome's extension-management instructions.</p></details>
+  </div>
+</div></section>
+</main>
+
+<footer class="footer"><div class="wrap footerin">
+  <div><strong>ezanshu · SkinFix</strong><div class="tiny">Free EvoWorld custom tools · V1</div></div>
+  <div class="tiny">Built for transparency. Verify the file, read the permissions, and use the tool you trust.</div>
+</div></footer>
+<a class="top" href="#top" aria-label="Back to top">↑</a>
+
+<script>
+(function(){
+  const key='ezanshu_skinfix_theme_votes_v1';
+  const votedKey='ezanshu_skinfix_theme_vote_choice_v1';
+  const getVotes=()=>{try{return JSON.parse(localStorage.getItem(key)||'{"India Theme":0,"Other":0}')}catch(e){return {"India Theme":0,"Other":0}}};
+  const save=v=>localStorage.setItem(key,JSON.stringify(v));
+  const fmt=n=>n===1?'1 vote':n+' votes';
+  function render(){
+    const v=getVotes();
+    document.getElementById('count-india').textContent=fmt(v['India Theme']||0);
+    document.getElementById('count-other').textContent=fmt(v['Other']||0);
+    const choice=localStorage.getItem(votedKey);
+    document.querySelectorAll('.vote-option').forEach(b=>b.classList.toggle('selected',b.dataset.choice===choice));
+    if(choice) document.getElementById('vote-status').textContent='Your vote: '+choice+'. You can change it anytime.';
+  }
+  document.querySelectorAll('.vote-option').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const old=localStorage.getItem(votedKey), next=btn.dataset.choice;
+      if(old===next){document.getElementById('vote-status').textContent='You already selected '+next+'.';return;}
+      const v=getVotes(); if(old) v[old]=Math.max(0,(v[old]||0)-1); v[next]=(v[next]||0)+1; save(v); localStorage.setItem(votedKey,next); render();
+    });
+  });
+  render();
+})();
+</script>
+</body>
+</html>
